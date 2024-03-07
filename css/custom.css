@@ -1,0 +1,7 @@
+h2 {font-size: 2.8rem !important;font-weight: 700;}
+img {display: cover;max-width: 100%;}
+.jumbotron {margin-bottom: 0 !important;}
+#banner {background-size: cover;}
+#banner header {overflow: hidden;}
+#banner header img {max-width: 100px;}
+@media (max-width: 575px) {#banner h1 {font-size: 3.6rem;}}
