@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
-const port = 800;
+const port = 80;
 http.createServer(function(request, response) {
     var pathname = url.parse(request.url).pathname;
     if (pathname == "/") {
